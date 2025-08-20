@@ -6,7 +6,7 @@
     <title>TODO_app</title>
     <link rel="stylesheet" href="styles.css">
     <script src="UI.js" defer></script>
-
+    <script src="../BackEnd/features.js"></script>
 </head>
 <body>
     <!-- Page content goes here -->
@@ -15,8 +15,9 @@
         <div class="txtSignIn"><h3>Sign In</h3></div>
     </div>
      <div>
-        <div class="btnCreate">
-            <button class="">Create Task</button>
+        <div class="btnManage">
+            <button onClick="loadTasks()">View Tasks</button>
+            <button class="btnCreate">Create Task</button>
         </div>
     </div>
     <div class="taskContainer"></div>
